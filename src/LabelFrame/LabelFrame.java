@@ -22,7 +22,7 @@ import javax.swing.ImageIcon;
             add(etiqueta1);//
 
             //Constructor de Jlabel con argumentos de cadena, Icono y alineacion
-            Icon insecto= new ImageIcon(getClass().getResource("1.jpg"));
+            Icon insecto= new ImageIcon(getClass().getResource("insecto.PNG"));
             etiqueta2 = new JLabel("Etiqueta con texto e icono",insecto,SwingConstants.LEFT);
             etiqueta2.setToolTipText("Esta es la etiqueta2");
             add(etiqueta2);// agrega etiqueta2 a JFrame

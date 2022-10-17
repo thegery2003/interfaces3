@@ -5,7 +5,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-// para ver si hace el commit
+
 public class details_raton extends JFrame {
         private String detalles;
         private final JLabel barraEstado;
